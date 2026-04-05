@@ -5,7 +5,7 @@ import pandas as pd
 # LOAD DATA
 # ==============================
 
-FILE_PATH = r"D:\Agentic_AI\data\dummy_sales_data.xlsx"
+FILE_PATH = "dummy_sales_data.xlsx"
 
 df = pd.read_excel(FILE_PATH)
 df['order_date'] = pd.to_datetime(df['order_date'])
